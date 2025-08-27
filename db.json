@@ -1,0 +1,536 @@
+{
+  "categories": [
+    {
+      "name": "Xiaomi",
+      "id": 3
+    },
+    {
+      "name": "Iphone",
+      "id": 4
+    },
+    {
+      "name": "Samsung",
+      "id": 5
+    },
+    {
+      "name": "Huawei",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "name": "Product 4",
+      "price": "123",
+      "imageUrl": "https://picsum.photos/id/3/200/300",
+      "inStock": true,
+      "category": "Xiaomi",
+      "description": "Mô tả sản phẩm",
+      "screen": {
+        "size": "78",
+        "resolution": "HD",
+        "rate": "60"
+      },
+      "ram": "6",
+      "memory": "32",
+      "battery": "6700",
+      "id": 1
+    },
+    {
+      "name": "Product 42",
+      "price": "123",
+      "imageUrl": "https://picsum.photos/id/5/200/300",
+      "inStock": true,
+      "category": "Xiaomi",
+      "description": "123",
+      "screen": {
+        "size": "123",
+        "resolution": "HD+",
+        "rate": "90"
+      },
+      "ram": "6",
+      "memory": "64",
+      "battery": "7800",
+      "id": 2
+    },
+    {
+      "name": "Product 422",
+      "price": "123",
+      "quantity": "123",
+      "imageUrl": "https://picsum.photos/id/4/200/300",
+      "inStock": true,
+      "category": "Xiaomi",
+      "description": "123",
+      "screen": {
+        "size": "123",
+        "resolution": "HD",
+        "rate": "60"
+      },
+      "ram": "6",
+      "memory": "64",
+      "battery": "123",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "test3@gmail.com",
+      "status": true,
+      "id": 1
+    },
+    {
+      "email": "test34@gmail.com",
+      "status": true,
+      "role": "customer",
+      "id": 2
+    },
+    {
+      "email": "test23@gmail.com",
+      "password": "123123",
+      "status": true,
+      "role": "admin1",
+      "id": 4
+    },
+    {
+      "email": "test67@gmail.com",
+      "password": "$2a$10$nJPAxLjcij5SzdXXEllVH.dq8rV8SVI//N2Arw/rlFxJpCIDt9j.C",
+      "status": true,
+      "role": "admin1",
+      "id": 5
+    },
+    {
+      "email": "test68@gmail.com",
+      "password": "$2a$10$04UomtiBptVXpr/OnDJ.Pe60Uz8QA7y92GrYH0eWAE6q7JF3WNna.",
+      "status": true,
+      "role": "admin0",
+      "id": 6
+    },
+    {
+      "email": "test685@gmail.com",
+      "password": "$2a$10$v9lhAJMesN/DEgAC0sMCCO6Nz2joS.l9H80inrZjqccDAQJuypwYS",
+      "status": true,
+      "role": "admin1",
+      "id": 7
+    },
+    {
+      "email": "Phuclam6987@gmail.com",
+      "password": "$2a$10$brLZ6JwPm4YXcXef.WIfoe2ZzuoGIiONGbNOMYK.Tve7ly6RUOhqW",
+      "name": "Lâm",
+      "phone": "0977599812",
+      "repassword": "123123",
+      "terms": true,
+      "id": 8
+    },
+    {
+      "email": "phuclam6987@gmail.com",
+      "password": "$2a$10$zxExbeabb5OTceMcwaJGquSFwA2HhVxvCB2aObqWxTA6Ss3OYRNrG",
+      "name": "Lâm update 2",
+      "phone": "123123",
+      "role": "customer",
+      "status": true,
+      "id": 9
+    },
+    {
+      "email": "test65@gmail.com",
+      "password": "$2a$10$NORKgS2ZP8CmJ0YNOybLH.Nyq0fMD6Id3SZgbgMcIuiScgbvVBqBa",
+      "name": "Product 4",
+      "phone": "0977599812",
+      "role": "customer",
+      "status": true,
+      "id": 10
+    },
+    {
+      "email": "test111@gmail.com",
+      "password": "$2a$10$hQtKAY9lsH/35LypNdPxNe.5HJWaAlLIhCZFKqz9dH.YhZBr/1yPy",
+      "name": "Nguyen Khoi",
+      "phone": "0967566456",
+      "role": "customer",
+      "status": true,
+      "id": 11
+    },
+    {
+      "email": "aaaa@agmail.com",
+      "password": "$2a$10$ED899q5lghZR3GjwhIg/hOa0x8.rjSEZfiZooUuw2k6FKwo1AxOPm",
+      "name": "Nguyen Khoi",
+      "phone": "0967566456",
+      "role": "customer",
+      "status": true,
+      "id": 12
+    },
+    {
+      "email": "khoi30@gmail.com",
+      "password": "$2a$10$knoV35a4Bde3ATQ4.oU8r.NlQWju2b5gku9dY8/tQPOqC2Cxk3kJq",
+      "name": "Khoi333",
+      "phone": "0946933237",
+      "role": "customer",
+      "status": true,
+      "id": 13
+    }
+  ],
+  "orders": [
+    {
+      "id": 1744663436251,
+      "userId": 9,
+      "date": "2025-04-14T20:43:56.251Z",
+      "status": "Hoàn tất",
+      "address": "Trịnh Văn Bô",
+      "paymentMethod": "momo",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 3,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 4560000
+    },
+    {
+      "id": 1744663906993,
+      "userId": 9,
+      "date": "2025-04-14T20:51:46.993Z",
+      "status": "Bị huỷ",
+      "address": "",
+      "paymentMethod": "offline"
+    },
+    {
+      "id": 1744664115214,
+      "userId": 9,
+      "date": "2025-04-14T20:55:15.214Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "momo"
+    },
+    {
+      "id": 1744664144264,
+      "userId": 9,
+      "date": "2025-04-14T20:55:44.264Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "offline"
+    },
+    {
+      "id": 1744664159665,
+      "userId": 9,
+      "date": "2025-04-14T20:55:59.665Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "vnpay"
+    },
+    {
+      "id": 1744664344015,
+      "userId": 9,
+      "date": "2025-04-14T20:59:04.015Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "momo"
+    },
+    {
+      "id": 1744664368176,
+      "userId": 9,
+      "date": "2025-04-14T20:59:28.176Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "vnpay"
+    },
+    {
+      "id": 1744664758508,
+      "userId": 9,
+      "date": "2025-04-14T21:05:58.508Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "offline"
+    },
+    {
+      "id": 1744664782818,
+      "userId": 9,
+      "date": "2025-04-14T21:06:22.818Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "offline"
+    },
+    {
+      "id": 1744664869568,
+      "userId": 9,
+      "date": "2025-04-14T21:07:49.568Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "offline"
+    },
+    {
+      "id": 1744665039569,
+      "userId": 9,
+      "date": "2025-04-14T21:10:39.569Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "offline",
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 3,
+          "price": "123"
+        },
+        {
+          "productId": 3,
+          "quantity": 2,
+          "price": "123"
+        },
+        {
+          "productId": 1,
+          "quantity": 2,
+          "price": "123"
+        }
+      ]
+    },
+    {
+      "id": 1744665267290,
+      "userId": 9,
+      "date": "2025-04-14T21:14:27.290Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "offline",
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 3,
+          "price": "123"
+        },
+        {
+          "productId": 1,
+          "quantity": 5,
+          "price": "123"
+        },
+        {
+          "productId": 2,
+          "quantity": 1,
+          "price": "123"
+        }
+      ]
+    },
+    {
+      "id": 1744665361011,
+      "userId": 9,
+      "date": "2025-04-14T21:16:01.011Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "offline",
+      "items": [],
+      "totalAmount": 0
+    },
+    {
+      "id": 1744665583542,
+      "userId": 9,
+      "date": "2025-04-14T21:19:43.542Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "offline",
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 2,
+          "price": "123"
+        },
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": "123"
+        },
+        {
+          "productId": 3,
+          "quantity": 2,
+          "price": "123"
+        }
+      ]
+    },
+    {
+      "id": 1744665929074,
+      "userId": 9,
+      "date": "2025-04-14T21:25:29.074Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "momo",
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 2,
+          "price": "123"
+        },
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": "123"
+        },
+        {
+          "productId": 3,
+          "quantity": 2,
+          "price": "123"
+        }
+      ]
+    },
+    {
+      "id": 1744665950124,
+      "userId": 9,
+      "date": "2025-04-14T21:25:50.124Z",
+      "status": "pending",
+      "address": "",
+      "paymentMethod": "momo",
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1,
+          "price": "123"
+        },
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": "123"
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": "123"
+        }
+      ]
+    },
+    {
+      "id": 1744681006882,
+      "userId": 9,
+      "date": "2025-04-15T01:36:46.882Z",
+      "status": "Chờ xác nhận",
+      "address": "",
+      "paymentMethod": "offline",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": "123"
+        },
+        {
+          "productId": 2,
+          "quantity": 3,
+          "price": "123"
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": "123"
+        }
+      ]
+    },
+    {
+      "id": 1744681325604,
+      "userId": 10,
+      "date": "2025-04-15T01:42:05.604Z",
+      "status": "Bị huỷ",
+      "address": "Trịnh Văn Bô",
+      "paymentMethod": "vnpay",
+      "totalAmount": 369,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": "123"
+        },
+        {
+          "productId": 2,
+          "quantity": 1,
+          "price": "123"
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": "123"
+        }
+      ]
+    },
+    {
+      "id": 1744685592842,
+      "userId": 11,
+      "date": "2025-04-15T02:53:12.842Z",
+      "status": "Đang giao hàng",
+      "address": "",
+      "paymentMethod": "offline",
+      "totalAmount": 123,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": "123"
+        }
+      ]
+    },
+    {
+      "id": 1744686356264,
+      "userId": 11,
+      "date": "2025-04-15T03:05:56.264Z",
+      "status": "Chờ xác nhận",
+      "address": "",
+      "paymentMethod": "offline",
+      "totalAmount": 123,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": "123"
+        }
+      ]
+    },
+    {
+      "id": 1744686653193,
+      "userId": 11,
+      "date": "2025-04-15T03:10:53.193Z",
+      "status": "Đang giao hàng",
+      "address": "",
+      "paymentMethod": "offline",
+      "totalAmount": 123,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": "123"
+        }
+      ]
+    },
+    {
+      "id": 1744686824259,
+      "userId": 11,
+      "date": "2025-04-15T03:13:44.259Z",
+      "status": "Chờ xác nhận",
+      "address": "",
+      "paymentMethod": "offline",
+      "totalAmount": 123,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": "123"
+        }
+      ]
+    },
+    {
+      "id": 1744687142367,
+      "userId": 11,
+      "date": "2025-04-15T03:19:02.367Z",
+      "status": "Chờ xác nhận",
+      "address": "Trịnh Văn Bô",
+      "paymentMethod": "offline",
+      "totalAmount": 615,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 5,
+          "price": "123"
+        }
+      ]
+    }
+  ],
+  "carts": [
+    {
+      "userId": 11,
+      "productId": 1,
+      "quantity": 1,
+      "id": 1
+    }
+  ]
+}

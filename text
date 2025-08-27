@@ -1,0 +1,5 @@
+1. Cài đặt Bootstrap Icons: npm install bootstrap-icons
+2. Cài đặt Bootstrap: npm install bootstrap
+3. Cài đặt React-Bootstrap: npm install react-bootstrap
+4. Cài đặt recharts: npm install recharts
+5. Cài đặt react-icons: npm install react-icons
